@@ -1,8 +1,10 @@
-1.Second smallest distinct element
-2.Print array in reverse order
-3.Reverse array in-place
-4.Find average of array elements
-5.Copy one array into another
-6.Count elements greater than the average
-7.Find the difference between the largest and smallest array elements
-8.Check whether an array is sorted in ascending order
+Day 10 – Beginner Array Problems
+
+1. SecondSmallestDistinctElement.java
+2. PrintArrayInReverse.java
+3. ReverseArrayInPlace.java
+4. AverageOfArrayElements.java
+5. CopyArray.java
+6. CountElementsGreaterThanAverage.java
+7. DifferenceBetweenLargestAndSmallest.java
+8. CheckArraySorted.java
