@@ -7,15 +7,14 @@ class Main {
         for(int i=0;i<n;i++){
             a[i]=sc.nextInt();
         }
-        int s=a[0],ss=Integer.MAX_VALUE;
+        int diff=Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
-            if(a[i]<s){
-                ss=s;
-                s=a[i];
+            for(int j=i+1;j<n;j++){
+                if(Math.abs(a[i]-a[j])<diff){
+                    diff=Math.abs(a[i]-a[j]);
+                }
             }
-            else if(a[i]<ss&&a[i]>s)
-                ss=a[i];
         }
-        System.out.println(s-ss);
+        System.out.println(diff);
     }
 }
